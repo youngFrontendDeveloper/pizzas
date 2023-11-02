@@ -27,10 +27,14 @@ const SinglePizza: FC<SinglePizzaProps> = ({pizza, updatePizza, deletePizza}) =>
             <span>{pizza.price} ₽</span>
 
             <div className="pizza-controls">
-                <button onClick={handleToggleEdit}>
+                <button
+                    className="pizza-controls__btn"
+                    onClick={handleToggleEdit}>
                     <AiFillEdit />
                 </button>
-                <button onClick={handleDelete}>
+                <button
+                    className="pizza-controls__btn"
+                    onClick={handleDelete}>
                     <AiFillDelete />
                 </button>
             </div>

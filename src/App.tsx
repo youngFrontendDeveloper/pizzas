@@ -26,7 +26,7 @@ const App:FC =()=>{
     return (
         <div className="App">
             <div className="wrap">
-                <span className="heading">Наша пиццерия</span>
+                <h1 className="heading">Добавить пиццу</h1>
                 <AddPizzaForm addPizza={addPizza}/>
                 <DisplayPizzas pizzasList={pizzasList} updatePizza={updatePizza} deletePizza={deletePizza}/>
             </div>

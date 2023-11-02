@@ -85,12 +85,18 @@ input[type=submit] {
   position: absolute;
   top: 5px;
   left: 5px;
+  display: flex;
+  gap: 1px;
 }
+
+.pizza-controls__btn {
+  padding: 8px 10px;
+}
+
 .pizza svg {
   width: 22px;
   height: 22px;
   cursor: pointer;
-  margin-right: 10px;
   color: #392e4a;
 }
 
