@@ -15,8 +15,6 @@ const initState = {
 const AddPizzaForm: FC<AddPizzaFormProps> = ({addPizza}) => {
     const [newPizza, setNewPizza] = useState<{ title: string, price: string, img: string }>(initState)
 
-    // type handleChange = () => string
-
     const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
         const {name, value} = e.target;
 
